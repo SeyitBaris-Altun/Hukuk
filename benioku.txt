@@ -1,0 +1,7 @@
+seo için:
+
+title: 60 karakter
+keyword: adalet, hukuk, vs.
+description: anlamlı iki cümle. 350 karakter
+h1: her sayfada tek h1 olmalı. sayfada özetle ne var?
+img: alt="adalet hukuk"

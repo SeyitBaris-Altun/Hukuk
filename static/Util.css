@@ -1,0 +1,372 @@
+:root{
+    --white:#fff;
+    --primary:#007bff;
+    --secondery:#6c757d;
+    --success:#28a745;
+    --danger:#dc3545;
+    --warning:#fcb040;
+    /* --warning:#ffc107; */
+    --info:#17a2b8;
+    --dark:#343a40;
+    --light:#f8f9fa;
+    --brown:#caba57;
+    --gray:#e6e6e6;
+
+}
+/* text color - yazı renkleri*/
+.text-white{color: var(--white);}
+.text-primary{color: var(--primary);}
+.text-secondery{color: var(--secondery);}
+.text-succes{color: var(--success);}
+.text-danger{color: var(--danger);}
+.text-warning{color: var(--warning);}
+.text-info{color: var(--info);}
+.text-dark{color: var(--dark);}
+.text-light{color: var(--light);}
+.text-brown{color: var(--brown);}
+
+/* bg-colors */
+.bg-white{background-color: var(--white);}
+.bg-primary{background-color: var(--primary);}
+.bg-secondery{background-color: var(--secondery);}
+.bg-success{background-color: var(--success);}
+.bg-danger{background-color: var(--danger);}
+.bg-warning{background-color: var(--warning);}
+.bg-info{background-color: var(--info);}
+.bg-dark{background-color: var(--dark);}
+.bg-light{background-color: var(--light);}
+.bg-brown{background-color: var(--brown);}
+.bg-gray{background-color: var(--gray);}
+
+/* buttons */
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: .9;
+}
+
+/* beyaz yazının altına renkli arka planlar */
+.btn-primary{
+    color: var(--white);
+    background-color: var(--primary);
+}
+.btn-secondery{
+    color: var(--white);
+    background-color: var(--secondery);
+}
+.btn-succes{
+    color: var(--white);
+    background-color: var(--success);
+}
+.btn-danger{
+    color: var(--white);
+    background-color: var(--danger);
+}
+.btn-warning{
+    color: var(--white);
+    background-color: var(--warning);
+}
+.btn-info{
+    color: var(--white);
+    background-color: var(--info);
+}
+.btn-dark{
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+/* Transparan Arka Plana Renkli yazı */
+.btn-outline{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.btn-outline-primary{
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btn-outline-secondery{
+    background-color: transparent;
+    border: 1px solid var(--secondery);
+    color: var(--secondery);
+}
+.btn-outline-success{
+    background-color: transparent;
+    border: 1px solid var(--success);
+    color: var(--success);
+}
+.btn-outline-danger{
+    background-color: transparent;
+    border: 1px solid var(--danger);
+    color: var(--danger);
+}
+.btn-outline-warning{
+    background-color: transparent;
+    border: 1px solid var(--warning);
+    color: var(--warning);
+}
+.btn-outline-info{
+    background-color: transparent;
+    border: 1px solid var(--info);
+    color: var(--info);
+}
+.btn-outline-dark{
+    background-color: transparent;
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+
+/* Transparan Butonlara Hover olduğumuzda */
+.btn-outline:hover{
+    background-color: var(--white);
+    color: var(--secondery);
+}
+.btn-outline-primary:hover{
+    background-color:var(--primary);
+    color: var(--white);
+}
+.btn-outline-secondery:hover{
+    background-color:var(--secondery);
+    color: var(--white);
+}
+.btn-outline-success:hover{
+    background-color: var(--success);
+    color: var(--white);
+}
+.btn-outline-danger:hover{
+    background-color:var(--danger);
+    color: var(--white);
+}
+.btn-outline-warning:hover{
+    background-color:var(--warning);
+    color: var(--white);
+}
+.btn-outline-info:hover{
+    background-color: var(--info);
+    color: var(--white);
+}
+.btn-outline-dark:hover{
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+/* flex items */
+.flex-items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin-top: 3 8px;
+}
+.flex-items > div {
+    padding: 1rem;
+    flex-basis: 100%;
+    /* Başlangıç genişliği */
+}
+
+/* flex columns */
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+    /* yan yana 2 bölümün yerlerini ters çevirmiş oluyoruz. */
+}
+.flex-columns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+.flex-columns .column{
+    flex: 1;
+}
+.flex-columns .column .column-1 , .flex-columns .column .column-2{
+    height: 100%;
+}
+.flex-columns .column-2{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+padding: 3rem;
+}
+.flex-columns img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* flex grid */
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px .2rem;
+}
+.flex-grid .column{
+    flex: 20%;
+    /* Herbir resmin olduğu kolon %20 olarak yer kaplar */
+    padding: 0px .2rem;
+}
+
+/* section */
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.section-header h2{
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.section-padding{
+    padding: 20px 30px;
+}
+.section-pad-food{
+    padding: 0px 0px ;
+}
+
+/* mobil */
+@media(max-width:768px)
+{
+    .flex-items{flex-direction: column;}
+}
+
+.kutu {
+    width: 94%;
+    padding: 20px;
+    border-radius: 10px;
+    background:var(--light);
+    margin: 2.5% 2.5%;
+    color:var(--dark);
+     text-align:left; 
+    /* text-align:center;  */
+    justify-content:center;
+    align-items: center;
+    line-height: 3rem;
+    list-style-type:outside;
+}
+
+
+.kutu1 {
+    width: 90%;
+    padding: 10px;
+    margin: 1.5% 1.5%;
+    color:var(--dark);
+    text-align:center;
+    line-height: 2.8rem;
+    font-size: 1.7rem;
+}
+
+.kutu2{
+    width: 96%;
+    padding: 10px;
+    border-radius: 15px;
+    /* border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    background:var(--light);
+    white-space:pre;
+    margin: 2% 2%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3rem;
+    box-sizing: border-box;
+    color:var(--dark);
+ }
+
+ .es-menu img {
+    height: 60px;
+}
+
+/* .es-menu{
+text-align:center;
+padding-bottom: auto;
+} */
+.es-footer{
+    background-color:var(--dark);
+    color:#fff;
+    height: 150px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.es-footer a{
+    color: var(--light);
+    line-height: 2rem;
+    margin-right: 1.5rem;
+}
+.col{
+    border: 1px solid var(--gray);
+}
+
+.column p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.kutu2 h2{
+    font-size: 2.8rem;
+    margin-bottom: -30px;
+}
+
+.row{
+    text-align: center;
+    line-height: 3rem;
+}
+
+.fa-whatsapp{
+    color: #4FCE5D;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+
+.fa-instagram{
+    color:rgb(225, 48, 108) ;
+
+}
+    /* Hex color:	#E1306C
+RGB:	225 48 108
+CMYK:	6 95 36 0
+Pantone:	191 C */
+/* }
+.fa-twitter{
+    background-color: #3b5998;
+} */
+
+.maps{
+    margin-bottom: 0px;
+    padding: 0px;
+    max-width: 90%;   
+    margin-top: 31px;
+    height: 300px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.maps:hover{
+    opacity: .9px;
+}
+
+
+
+
+
+
+ 
+ 
