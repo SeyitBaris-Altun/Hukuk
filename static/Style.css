@@ -240,9 +240,13 @@ color: var(--warning);
     padding: 1rem 0rem;
 } */
 .article{
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem;
     color: var(--white);
-    margin-top: 58px;
+    margin-top: 58px; */
+
+    margin-bottom: 2rem;
+    color: var(--white);
+    margin-top: 0px;
 }
 
 /* footer */

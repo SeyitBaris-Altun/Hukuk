@@ -8,6 +8,27 @@
 
     <main>
         <!-- articles -->
+
+        <section class="articles">
+            <article id="article" class="article flex-columns">
+                <div class="row">
+                    <div class="column">
+                        <div class="column-1">
+                            <img src="../img/haciz-kaldirma.jpg" alt="haciz kaldırma hukuku">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-2 bg-light text-dark">
+                            <h3>İhtiyaç (Gereksinim) Nedeniyle Tahliye Davasında Dikkat Edilmesi Gerekenler!</h3>
+                            <p>Bu bültende; 6098 Sayılı Türk Borçlar Kanunu’nun (“TBK”) “Gereksinim, yeniden İnşa, ve imar” başlıklı 350. Maddesinde düzenleme alanı bulan “gereksinim/ihtiyaç nedeniyle tahliye” konusu genel olarak incelenecektir. TBK’nın 350. Maddesi; “Kiraya veren, kira sözleşmesini; 1-Kiralananı kendisi, eşi, altsoyu, üstsoyu veya kanun gereği...</p>
+                            <nuxt-link to="/ihtiyac"><button class="btn btn-outline-dark">Devamı >></button></nuxt-link>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        
         <section class="articles">
             <article id="article" class="article flex-columns">
                 <div class="row">
@@ -65,24 +86,7 @@
             </article>
         </section>
 
-        <section class="articles">
-            <article id="article" class="article flex-columns">
-                <div class="row">
-                    <div class="column">
-                        <div class="column-1">
-                            <img src="../img/haciz-kaldirma.jpg" alt="haciz kaldırma hukuku">
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="column-2 bg-light text-dark">
-                            <h3>İhtiyaç (Gereksinim) Nedeniyle Tahliye Davasında Dikkat Edilmesi Gerekenler!</h3>
-                            <p>Bu bültende; 6098 Sayılı Türk Borçlar Kanunu’nun (“TBK”) “Gereksinim, yeniden İnşa, ve imar” başlıklı 350. Maddesinde düzenleme alanı bulan “gereksinim/ihtiyaç nedeniyle tahliye” konusu genel olarak incelenecektir. TBK’nın 350. Maddesi; “Kiraya veren, kira sözleşmesini; 1-Kiralananı kendisi, eşi, altsoyu, üstsoyu veya kanun gereği...</p>
-                            <nuxt-link to="/ihtiyac"><button class="btn btn-outline-dark">Devamı >></button></nuxt-link>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
+        
 
         <section class="articles">
             <article id="article" class="article flex-columns">

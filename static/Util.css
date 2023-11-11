@@ -182,7 +182,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 .flex-columns .column{
     flex: 1;

@@ -13,9 +13,9 @@
 
             <div class="col es-footer">
             <div class="row">
-                <a class="col-12" href="tel:+902122730171">+90 (212) 273 01 71</a> 
+                <!-- <a class="col-12" href="tel:+902122730171">+90 (212) 273 01 71</a>  -->
                 
-                <a class="col-12" href="https://api.whatsapp.com/send?phone=905412066080">+90 (541) 206 60 80</a>
+                <a class="col-12" href="https://api.whatsapp.com/send?phone=905380478622">+90 (538) 047 86 22</a>
             </div>
             </div>
             <div class="col es-footer">
@@ -26,7 +26,7 @@
         </div>
         <footer class="footer bg-gray">
             <div class="social">
-                <a href="https://api.whatsapp.com/send?phone=905412066080"><i class="fab fa-whatsapp fa-2x"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=905380478622"><i class="fab fa-whatsapp fa-2x"></i></a>
                 <a href="https://tr-tr.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
                 <!-- <a href="https://twitter.com"><i class="fab fa-twitter fa-2x"></i></a> -->
                 <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>

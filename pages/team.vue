@@ -11,13 +11,13 @@
 
             <div class="flex-items">
                 <div>
-                    <nuxt-link to="avukat_seyit_baris_altun"><img src="../img/seyit_1.jpg" alt="">
+                    <nuxt-link to="avukat_seyit_baris_altun"><img src="../img/user1.jpg" alt="">
                     <h2>Av. Seyit Barış Altun</h2>
                     <br>
                     <h3>Kurucu</h3>
 
                     <div class="kutu">
-                        tel , mail , linkedin
+                        av.seyitbarisaltun@gmail.com
                     </div>
                     </nuxt-link>
                     <!-- Linkedin adresi giriliecek -->
@@ -25,26 +25,26 @@
                 </div>
 
                 <div>
-                    <nuxt-link to="avukat_2"><img src="../img/seyit_1.jpg" alt="">
+                    <nuxt-link to="avukat_2"><img src="../img/user1.jpg" alt="">
                     <h2>Altun Hukuk</h2>
                     <br>
                     <h3>Stajyer</h3>
 
                     <div class="kutu">
-                        tel , mail , linkedin
+                        av.seyitbarisaltun@gmail.com
                         
                     </div>
                     </nuxt-link>
                 </div>
 
                 <div>
-                    <nuxt-link to="avukat_3"><img src="../img/seyit_1.jpg" alt="">
+                    <nuxt-link to="avukat_3"><img src="../img/user1.jpg" alt="">
                     <h2>Altun Hukuk</h2>
                     <br>
                     <h3>Stajyer</h3>
 
                     <div class="kutu">
-                        tel , mail , linkedin 
+                        av.seyitbarisaltun@gmail.com
                         
                     </div>
                     </nuxt-link>
